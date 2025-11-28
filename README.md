@@ -1,27 +1,19 @@
-In this DevOps task, you need to build and deploy a full-stack CRUD application using the MEAN stack (MongoDB, Express, Angular 15, and Node.js). The backend will be developed with Node.js and Express to provide REST APIs, connecting to a MongoDB database. The frontend will be an Angular application utilizing HTTPClient for communication.  
+# 🚀 MEAN Stack Application – DevOps Deployment Project  
+A complete DevOps pipeline implementation using **Docker**, **Docker Compose**, **Nginx**, **GitHub Actions CI/CD**, and **AWS EC2**.
 
-The application will manage a collection of tutorials, where each tutorial includes an ID, title, description, and published status. Users will be able to create, retrieve, update, and delete tutorials. Additionally, a search box will allow users to find tutorials by title.
+This project includes:
 
-## Project setup
+- Frontend (Angular)
+- Backend (Node.js / Express)
+- MongoDB Database
+- Docker containerization for all services
+- Docker Compose multi-container deployment
+- CI/CD Pipeline using GitHub Actions
+- Deployment to AWS EC2 (Ubuntu VM)
+- Nginx reverse proxy on port 80
 
-### Node.js Server
+---
 
-cd backend
+# 📌 1. Folder Structure
 
-npm install
-
-You can update the MongoDB credentials by modifying the `db.config.js` file located in `app/config/`.
-
-Run `node server.js`
-
-### Angular Client
-
-cd frontend
-
-npm install
-
-Run `ng serve --port 8081`
-
-You can modify the `src/app/services/tutorial.service.ts` file to adjust how the frontend interacts with the backend.
-
-Navigate to `http://localhost:8081/`
+<img width="379" height="942" alt="image" src="https://github.com/user-attachments/assets/adc84dde-7653-4874-8bb6-3fc2c54837f5" />
