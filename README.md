@@ -26,7 +26,7 @@ This project includes:
 
 ## 🟦 **Backend Dockerfile**
 
-```dockerfile
+
 FROM node:18-alpine
 
 WORKDIR /app
